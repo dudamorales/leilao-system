@@ -104,7 +104,8 @@ public class vendasVIEW extends javax.swing.JFrame {
         listagemVIEW listagem = new listagemVIEW();
         listagem.setVisible(true);
     }//GEN-LAST:event_btnVoltarVendasActionPerformed
-
+    
+    // funcionalidade implementada
     public void listarVendidos(){
     try {
         ProdutosDAO dao = new ProdutosDAO();

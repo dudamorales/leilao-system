@@ -33,6 +33,7 @@ public class ProdutosDAO {
         
         prep.executeUpdate();
         
+        // mensagem de sucesso
         JOptionPane.showMessageDialog(null, "Produto cadastrado com sucesso!");
         
     } catch (Exception e) {
